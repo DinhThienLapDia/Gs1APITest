@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.6.3  Built on : Jun 27, 2015 (11:17:49 BST) --><serviceGroup>
+    <service name="Gs1vnAPI">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="vn.org.gs1.gepir.www.Gs1VnAPIMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">vn.org.gs1.gepir.www.Gs1VnAPISkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="GetOwnerOfGLN" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetOwnerOfGLN</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetOwnerOfGLNResponse</outputActionMapping>
+        </operation>
+        <operation name="GetItemByGTIN" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetItemByGTIN</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetItemByGTINResponse</outputActionMapping>
+        </operation>
+        <operation name="GepirVersion2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://gepir.gs1.org.vn/GepirVersion2</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GepirVersion2Response</outputActionMapping>
+        </operation>
+        <operation name="GetPartyByGLN" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetPartyByGLN</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetPartyByGLNResponse</outputActionMapping>
+        </operation>
+        <operation name="GetAuthorization" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetAuthorization</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetAuthorizationResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPartyByName" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetPartyByName</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetPartyByNameResponse</outputActionMapping>
+        </operation>
+        <operation name="SessionAuthorize" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/SessionAuthorize</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/SessionAuthorizeResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPartyByGTIN" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetPartyByGTIN</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetPartyByGTINResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPartyBySSCC" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetPartyBySSCC</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetPartyBySSCCResponse</outputActionMapping>
+        </operation>
+        <operation name="GetStatistics" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.gepir.gs1.org.vn/">
+            <actionMapping>http://www.gepir.gs1.org.vn/GetStatistics</actionMapping>
+            <outputActionMapping>http://www.gepir.gs1.org.vn/routerSoap/GetStatisticsResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

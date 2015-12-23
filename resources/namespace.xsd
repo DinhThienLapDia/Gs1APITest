@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.w3.org/XML/1998/namespace">
+    <annotation>
+        <documentation>
+            This is a simplified version of the schema for http://www.w3.org/XML/1998/namespace
+            located at http://www.w3.org/2001/xml.xsd. It is actually closer to the original
+            (but outdated) schema located at http://www.w3.org/XML/1998/namespace.xsd.
+            In particular, it avoids usage of a union to represent the "lang" attribute.
+        </documentation>
+    </annotation>
+    <attribute name="lang" type="language"/>
+    <attribute default="preserve" name="space">
+        <simpleType>
+            <restriction base="NCName">
+                <enumeration value="default"/>
+                <enumeration value="preserve"/>
+            </restriction>
+        </simpleType>
+    </attribute>
+</schema>
